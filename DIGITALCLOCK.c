@@ -59,6 +59,10 @@ void fill_time(char* buffer, int format) {
   if (format == 1) {
     strftime(buffer, 50, "%H:%M:%S", current_time);
   }
+
+
+
+  
   else {
     strftime(buffer, 50, "%I:%M:%S %p", current_time);
   }
