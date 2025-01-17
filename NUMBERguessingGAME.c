@@ -42,8 +42,7 @@ random_number=rand()%100 + 1;
     printf("**                                                  **\n");
     printf("******************************************************\n");
    }
-}
-while(guessing_number!=random_number);
+}while(guessing_number!=random_number);
 
  }
    
