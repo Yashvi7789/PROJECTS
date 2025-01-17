@@ -58,12 +58,7 @@ void fill_time(char* buffer, int format) {
   current_time = localtime(&raw_time);
   if (format == 1) {
     strftime(buffer, 50, "%H:%M:%S", current_time);
-  }
-
-
-
-  
-  else {
+  }else {
     strftime(buffer, 50, "%I:%M:%S %p", current_time);
   }
 }
